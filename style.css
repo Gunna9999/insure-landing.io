@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'DM Serif Display', serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+nav ul{
+list-style-type: none;
+display: flex;
+}
+
+nav li{
+    display: block;
+    padding: 0rem 1rem;
+    margin-top: -1rem;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:hsl(273, 4%, 51%);
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.nav-btn{
+    border: 2px solid hsl(256, 26%, 20%) ;
+padding: .5rem 2rem;
+color: hsl(256, 26%, 20%);
+}
+
+.bg-color{
+    background-color:hsl(256, 26%, 20%);
+    position: relative;
+    height: 450px;
+    width: 100%;
+}
+
+.section-content{
+    display: flex;
+}
+
+.br-line{
+    border: .5px solid hsl(0, 0%, 98%);
+    width: 100px;
+}
+
+.head-sec{
+    padding: 4rem 3rem;
+}
+
+.head-sec h1{
+    color: hsl(0, 0%, 98%);
+font-weight: bolder;
+font-size: 3.6rem;
+width: 400px;
+}
+
+.head-sec p{
+color: hsl(0, 0%, 98%);
+margin-top: -1.5rem;
+margin-bottom: 2rem;
+width: 500px;
+}
+
+.head-sec ul{
+    list-style-type: none;
+}
+
+.head-sec a{
+text-decoration: none;
+color:hsl(256, 26%, 20%) ;
+background-color: hsl(0, 0%, 98%) ;
+text-transform: uppercase;
+padding: .5rem 1.5rem;
+}
+
+.img-1{
+    padding-top: 17rem;
+}
+
+.img-2{
+   position: absolute;
+   left: 60%;
+   top: 15%;
+}
+
+.img-3{
+    position: absolute;
+    left: 76%;
+}
+
+.section-two{
+    padding-top: 13rem;
+    padding-left: 5rem;
+    padding-right: 5rem ;
+}
+
+
+.br-line-two{
+    border: 2px solid hsl(270, 9%, 17%);
+    width: 100px;
+}
+
+.section-two h1{
+    font-size: 3rem;
+    color: hsl(270, 9%, 17%);
+}
+
+.content-diff{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+gap: 2rem;
+}
+
+.section-two h4{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.section-two p{
+    color:hsl(273, 4%, 51%); 
+    width: 300px;
+}
+
+
+.work-content{
+    display: flex;
+    justify-content: space-between;
+padding: 2rem 5rem;
+align-content: center;
+text-align: center;
+}
+
+
+.work-content ul{
+    list-style-type: none;
+}
+
+.work-content a{
+    position: absolute;
+    left: 72%;
+    margin-top: 4.5rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+   color:hsl(270, 9%, 17%);
+   text-transform: uppercase;
+   background-color: hsl(0, 0%, 98%);
+}
+
+.work-content h4{
+    color:hsl(0, 0%, 98%); 
+    font-size: 2rem;
+    background-color: hsl(256, 26%, 20%);
+    width: 750px;
+    height: 127px;
+    padding-top: 2rem;
+}
+
+.work-content img{
+    background-color: hsl(256, 26%, 20%);
+    margin-top: 2.58rem;
+}
+
+footer{
+    background-color:hsl(0, 0%, 98%) ;
+}
+
+.foot-img{
+    position: absolute;
+}
+
+
+.foot-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+.foot-logo ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.foot-logo li{
+    display: block;
+    padding: 1rem;
+}
+
+.logo{
+    margin-top: 1.5rem;
+}
+
+.foot-section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 0rem 5rem;
+}
+
+.foot-section-two ul{
+    list-style-type: none;
+}
+
+.foot-section-two a{
+    text-decoration: none;
+}
+
+.head-text{
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+    margin-bottom: 1.5rem;
+}
+
+.foot-link{
+    text-transform: uppercase;
+    color:hsl(256, 26%, 20%);
+    line-height: 2rem;
+}
+
+
+@media (max-width:775px) {
+    nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 3rem;
+        }
+    
+        nav ul {
+    
+            display: none;
+        }
+
+    
+        .bg-color {
+            background-color: hsl(256, 26%, 20%);
+            position: relative;
+            height: 450px;
+            width: 100%;
+        }
+    
+        .section-content {
+            display: flex;
+        }
+    
+        .br-line {
+            border: .5px solid hsl(0, 0%, 98%);
+            width: 100px;
+        }
+    
+        .head-sec {
+            padding: 4rem 0rem;
+        }
+    
+        .head-sec h1 {
+            color: hsl(0, 0%, 98%);
+            font-weight: bolder;
+            font-size: 1.5rem;
+            width: 200px;
+        }
+    
+        .head-sec p {
+            color: hsl(0, 0%, 98%);
+            margin-top: -1rem;
+            margin-bottom: 2rem;
+            width: 200px;
+        }
+    
+        .head-sec ul {
+            list-style-type: none;
+        }
+    
+        .head-sec a {
+            text-decoration: none;
+            color: hsl(256, 26%, 20%);
+            background-color: hsl(0, 0%, 98%);
+            text-transform: uppercase;
+            padding: .5rem 1.5rem;
+        }
+    
+        .img-1 {
+          padding-top: 22rem;
+          width: 80px;
+        }
+    
+        .img-2 {
+display: none;
+        }
+    
+        .img-3 {
+            position: absolute;
+            left: 65%;
+            width: 100px;
+
+        }
+    
+        .section-two {
+            padding-top: 13rem;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            text-align: center;
+        }
+    
+    
+        .br-line-two {
+            border: 2px solid hsl(270, 9%, 17%);
+            width: 100%;
+        }
+    
+        .section-two h1 {
+            font-size: 3rem;
+            color: hsl(270, 9%, 17%);
+        }
+    
+        .content-diff {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+        }
+    
+        .section-two h4 {
+            text-transform: capitalize;
+            font-size: 1.5rem;
+        }
+    
+        .section-two p {
+            color: hsl(273, 4%, 51%);
+            width: 300px;
+        }
+    
+    
+        .work-content {
+            display: flex;
+            justify-content: space-between;
+                padding: 2rem 0rem;
+                align-content: center;
+                text-align: center;
+        }
+    
+    
+        .work-content ul {
+            list-style-type: none;
+        }
+    
+        .work-content a {
+            position: absolute;
+            left: 63%;
+            margin-top: 4.5rem;
+            padding: .3rem .5rem;
+            text-decoration: none;
+            color: hsl(270, 9%, 17%);
+            text-transform: uppercase;
+            background-color: hsl(0, 0%, 98%);
+            font-size: 12px;
+        }
+    
+        .work-content h4 {
+            color: hsl(0, 0%, 98%);
+            font-size: 2rem;
+            background-color: hsl(256, 26%, 20%);
+            width:350px;
+            height: 127px;
+            padding-top: 2rem;
+        }
+    
+        .work-content img {
+            background-color: hsl(256, 26%, 20%);
+            margin-top: 2.58rem;
+            width: 150px;
+            height: 160px;
+        }
+    
+        footer {
+            background-color: hsl(0, 0%, 98%);
+        }
+    
+        .foot-img {
+            position: absolute;
+            width: 300px;
+
+        }
+
+    .social{
+width: 15px;
+    }
+    
+        .foot-logo {
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem 2rem;
+        }
+    
+        .foot-logo ul {
+            list-style-type: none;
+            display: flex;
+        }
+    
+        .foot-logo li {
+            display: block;
+            padding: .5rem;
+        }
+    
+        .logo {
+            margin-top: 1.5rem;
+            width: 50px;
+        }
+    
+        .foot-section-two {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+
+        }
+    
+        .foot-section-two ul {
+            list-style-type: none;
+        }
+    
+        .foot-section-two a {
+            text-decoration: none;
+        }
+   
+        .head-text {
+            text-transform: uppercase;
+            color: hsl(273, 4%, 51%);
+            margin-bottom: 1.5rem;
+            font-size:1.7rem ;
+        }
+    
+        .foot-link {
+            text-transform: uppercase;
+            color: hsl(256, 26%, 20%);
+            line-height: 2rem;
+            font-size: 1.5rem;
+        }
+            
+}
